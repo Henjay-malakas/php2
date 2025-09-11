@@ -1,18 +1,20 @@
-<!--Hello!
+<!-- Hello!
 <h1>Hello!</h1>
 <style>
-    h1{
-        color:yellow;
+    h1 {
+        color: yellow;
     }
 </style>
 <script>
-    alert("Hello")
+    alert("Hello!")
 </script> -->
 <?php 
-//echo "<b>hellow world</b>";
+   /* echo "<b>Hello World!</b>";
+    echo "<b>Hello World!</b>";
+    echo "<b>Hello World!</b>";
+    echo "<b>Hello World!</b>";
+    */
 ?>
-
-<!--<h1>hellow</h1>-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -22,107 +24,317 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello thid is me!</h1>
-    <?php
-//  Echo "Hello";
+    <!-- <h1>Hello this is Me!</h1> -->
+    <?php 
+        // eChO "Hello";
+        
+        $color = "Red";
+        $Color = "Blue";
+        // echo $Color;
+        // echo $color;
+
+        $_ = 5;
+
+        // echo $_;
+
+        // var_dump($color);
+        // var_dump($_);
+        // var_dump(3.1);
+        // var_dump(false);
+        // var_dump([1,2]);
+
+        // VARIABLE
+        // $x = 5; //global
+
+        // function test() {
+        //   //  $x = 10; //local
+        //     static $x = 10;
+        //     echo $x;
+        //     $x++;
+        //     echo "<br>";
+        // }
+
+        // test();
+        // test();
+        // test();
+        // test();
+        // test();
+        // test();
+        // echo $x;
+
+        // echo & print
+
+        // echo ("Hello"), ("Hello"), ("Hello");
+        // echo  "World!", "World!";
+        // print ("Hello");
+        // print "World!";
+
+
+        // $x = print("");
+        // echo $x;
+
+
+        // $a = 'Meruem';
+        // $b = 100;
+        // $c = 100.00;
+        // $d = true;
+        // $e = [1,2,3];
+        // $f = new stdClass();
+        // $g = null;
+        // $h = fopen("php_practice.php", "r");
+
+        // var_dump($a);
+        // echo "<br>";
+        // var_dump($b);
+        // echo "<br>";
+        // var_dump($c);
+        // echo "<br>";
+        // var_dump($d);
+        // echo "<br>";
+        // var_dump($e);
+        // echo "<br>";
+        // var_dump($f);
+        // echo "<br>";
+        // var_dump($g);
+        // echo "<br>";
+        // var_dump($h);
+        // echo "<br>";
+
+        // // echo strlen($a);
+       
+        // $x = "Juan Cruz";
+        // echo str_replace("Cruz", "Lance", $x);
+
+        // echo trim("Hello World!                         ");
+
+        // var_dump(explode("u", $x));
+
+       // echo "Hello World!";
+
+        // $x = "Hello";
+        // $y = "Meruem";
+
+        // echo $x . " " . $y, "<br>";
+        // echo "$x  $y","<br>";
+        // echo "Meruem \"Hari ng mga Langgam\" Estrella";
+
+        // echo is_int(5),"<br>";
+
+        // echo PHP_FLOAT_MIN,"<br>";
+        // echo PHP_FLOAT_MAX,"<br>";
+
+        // echo is_float(5.0);
+
+        // echo is_numeric("25");
+
+        // $a = (object) '5.1 MIRUEM';
+        // $b = (object) 100;
+        // $c = (object) 100.00;
+        // $d = (object) true;
+        // $g = (object) null;
+        // $h = (object) fopen("php_practice.php", "r");
+
+        // unset($a);
+
+
+        // var_dump($a);
+        // echo "<br>";
+        // var_dump($b);
+        // echo "<br>";
+        // var_dump($c);
+        // echo "<br>";
+        // var_dump($d);
+        // echo "<br>";
+        // var_dump($g);
+        // echo "<br>";
+        // var_dump($h);
+        // echo "<br>";
+
+    //  $x =  pi();
+    //  echo $x;
+
+    // echo abs (5);
+    //echo sqrt(2);
+
+   // echo round(5.5);
+   //echo rand(5,20);
+
+//    $_asd = 5;
+//    define("GREETING","HELLO");
+//    //echo GREETING;
+
+//    function test(){
+//     echo GREETING;
+
+//    }
+
+//    test();
+//$x = 5;
+
+
+//$x = $x +10;
+//$x += 10;
+
+//echo $x;
+
+//$x %= 5;
+//echo $x;
+
+// var_dump(5 == 5);
+// var_dump("5" == "5");
+// var_dump(5 <> 7);
+// var_dump(5 !== 5);
+//echo 3 <=> 2;
+
+//pre icr/dewc
+//pre ic
+// $x = 5;
+// echo ++$x;
+// //post ic
+// $y = 5;
+// echo $y++;
+// echo $y;
+
+//logical
+
+// and &&
+//var_dump(true && true);//true
+// var_dump(5==="5" && 5===5);//true
+// // or ||
+// vvar_dump(false or false);
+
+// //xor
+// var_dump(true xor false);//only one true
+
+// //! reverse
+
+// var_dump(!false);
+
+
+// $x = "HELLO" . "WORLD";
+
+
+// // = APPEND
+// $x .= "World!";
+// echo $x;
+
+//array operator
+//union
+// $x = [1,2,3];
+// $y = [3=>4,5,6,7];
+
+// $z = $x + $y;
+
+// //print_r($x);
+// //print_r($y);
+// print_r($z);
+//echo $x == $y;//true
+//eqqual to
+
+// $x = [1,2,3];
+// $y = [2=>3,1=>2,0=>1];
+
+// echo $x === $y;//false
+
+//decision making statements
+
+//if statement
+// if(4 =="4h"){
+//     echo"same";
+// }elseif(6<5) {
+//     echo"6 is greater than 5";
+// }
+// else{
+//     echo"no";
+// }
+//   $gender = null;
+// // if ($gender == "female"){echo "woman";}else{echo "mens";}
+// // // condition ? if true : if false
+
+// //  echo $gender == "female" ? "woman" : "mens";
+// // echo $x;
+
+// $x = $gender ?? null;
+
+// echo $x;
+
+// switch
+
+
+// $color = "b";
+
+// switch($color){
+//     case "R":
+//         echo "Red";
+//         break;
+//         case"Green":
+//             break;
+//             case "b":
+//                 echo"blue";
+//                 break;
+//                 default:
+//                 echo "invalid";
+// }
+
+//true and true
+// if (4=="4" && 4 ==4 ){}
+// //atlest one true
+// if (4=="4" || 4 ==4 ){}
+// // ONLY 1 TRUE CANNOT BE BOTH
+// if (4=="4" XOR 4 ==4 ){}
+
+// //reserve
+// if !4=="4";
+
+
+// php looping statement
+
+// while
+// $x = 0;
+// while($x < 5){
+//     echo"hello";
+//     continue;
+//     $x++;
+// }
+//do while
+
+// do {
+  
+//     echo $x;
+//     $x++;
    
-  $color = "Red";
-  $color = "blue";
-  //echo $color;
-  //echo $color;
+// }while($x < 5)
+//for
+// for($x = 0;$x<5;$x++){
+//     echo $x;
 
- /*$_ = 5;
-  echo $_;
-  var_dump($color);
-   var_dump($_);
-    var_dump(3.1);
-     var_dump(false);
-      var_dump([1,2]);
+// }
 
-      $x = 5;
+//foreach
+// $x = array(1,2,3,4);
 
-      function test(){
-        //$x = 10;
-        static $x = 10;
-        echo $x;
-        $x++;
-        echo "<br>";
-      }
-      test();
-      test();
-      test();
-      test();
-      test();
-      test();*/
+// foreach($x as $key => $value){
+//     echo $key."=>".$value,"<br>";
 
-     // echo $x;
-
-    //  echo("Hello"),("Hello"),("Hello");
-    //  echo"World","World";
-    //  print("Hello");
-    //  print"World";
-
-    // $x = print("Hello");
-    // echo $x;
-
-
-    // $a = "miruem";
-    // $b = 1;
-    // $c = 1.2;
-    // $d = true;
-    // $e = [1,2,3];
-    // $f = new stdClass();
-    // $g = null;
-    // $h = fopen("php_practice.php","r");
-
-    // var_dump($a);
-    // echo "<br>";
-    // var_dump($b);
-    // echo "<br>";
-    // var_dump($c);
-    // echo "<br>";
-    // var_dump($d);
-    // echo "<br>";
-    // var_dump($e);
-    // echo "<br>";
-    // var_dump($f);
-    // echo "<br>";
-    // var_dump($g);
-    // echo "<br>";
-    // var_dump($h);
-    // echo "<br>";
-
-    // echo strlen($a);
-    
-
-    // $x = "juan cruz";
-    // echo str_replace("cruz ","Lance",$x);
-    // echo trim("Hello         ");
-
-    // var_dump (explode(" ", $x));
-
-    // $x = "Hello";
-    // $y = "RJ";
-
-    // echo $x . " " .$y, "<br>";
-    // echo "$x  $y","<br>";
-    // echo"john \"john\" paldo";
-
-    // echo is_int(1), "<br>"
-
-    // echo PHP_FLOAT_MAX;
-    // echo PHP_FLOAT_MIN;
-
-    // echo is_float(5.1);
-
-    echo is_numeric("5");
-
-
-
+// }
 
 
 
 
     ?>
+<ol>
+   <!-- <?php for($x = 1; $x<= 10; $x++){
+    echo " <li>item $x</li>";
+   }
+   ?> -->
+   <?php
+    $x = array("maria","theresa","juana");
+
+foreach($x as $value){ 
+    echo"<li>$value</li>";
+}
+ ?>
+</ol>
+
 </body>
 </html>
